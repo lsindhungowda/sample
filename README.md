@@ -10,19 +10,38 @@ For each test case, print the minimum time in which all array elements will beco
 
 # Constraints
 1<=T<=5
+
+
 1<=N<=10^5
+
+
 1<=A[i]
+
+
 k<=10^6
 
+
 # Sample Input 
+
   2
+  
+  
   3 4 
+  
+  
   1 2 5
-  3 2 
+  
+  
+  3 2
+  
+  
   2 5 5
   
 # Sample Output
+
   3
+  
+  
   0
 
 # 2.Frustrated Coders
@@ -37,14 +56,20 @@ The first line contains N the no. of coders The next line contains N  elements w
 Print a single line containing the minimum sum
 
 # Constraints
+
 1<=N<=1000000
+
+
 1<=s[i]<=1000
 
 # Sample Input
+
 6
+
 1 7 2 2 4 4
 
 # Sample Output
+
 11
 
 # 3.Hamiltonian and Lagrangian
@@ -59,11 +84,17 @@ The first line of input will contain a single integer n denoting the number of s
 Output all the integers separated in the array from left to right that are not smaller than those on its right side.  
 
 # Constraints 
+
 1<=n<=1000000
+
+
 0<=arr[i]<=10000
 
 # Sample Input
+
 6
+
+
 16 17 4 3 5 2
    
    
@@ -86,14 +117,21 @@ N numbers- order of records.
 Print "Happy" if the playlist has songs from 1 to N in order else "Sad". 
  
 # Constraints
+
 1<=N<=10^5 
+
+
 The array consists of 1-N distinct numbers. 
 
 # Sample Input
+
 5
+
+
 1 2 4 3 5
 
 # Sample Output
+
 Happy
 
 # 5. Hacker and traffic lights
@@ -111,13 +149,19 @@ The second line describes the current status of each bulb as an array whose each
 Print the minimum amount of time required to clear the traffic jam". 
  
 # Constraints
+
+
 1<=N, K<=100000. 
  
 # Sample Input
+
 4 2
+
+
 R Y G Y
 
 # Sample Output
+
 5
  
 # 6. Remove Friends 
@@ -145,26 +189,52 @@ First line contains T number of test cases. First line of each test case contain
 For each test case print N-K numbers which represent popularity of Christie friend's after deleting K friends. 
  
 # Constraints
+
 1<=T<=1000
+
+
 1<=N<=100000
+
+
 0<=K< N
+
+
 0<=popularity_of_friend<=100 
 
 # NOTE:
 Order of friends after deleting exactly K friends should be maintained as given in input. 
 
 # Sample Input
+
 3
+
+
 3 1 
+
+
 3 100 1
-5 2 
+
+
+5 2
+
+
 19 12 3 4 17
+
+
 5 3
+
+
 23 45 11 77 18
 
+
 # Sample Output
+
 100 1
+
+
 19 12 17
+
+
 77 18
 
 
